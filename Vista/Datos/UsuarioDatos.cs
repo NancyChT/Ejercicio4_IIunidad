@@ -11,19 +11,19 @@ namespace Datos
 {
     public class UsuarioDatos
     {
-        public async Task<bool> LoginAsync(string Codigo, string Clave)
+        public async Task<bool> LoginAsync(string Correo, string Clave)
         {
             bool valido = false;
             try
             {
-                string sql = "SELECT 1 FROM Usuario WHERE Codigo=@Codigo AND Clave=@Clave;";
+                string sql = "SELECT 1 FROM Usuario WHERE Correo=@Correo AND Clave=@Clave;";
                 using (MySqlConnection _conexion = new MySqlConnection(CadenaConexion.Cadena))
                 {
                     await _conexion.OpenAsync();
                     using (MySqlCommand comando = new MySqlCommand(sql, _conexion))
                     {
                         comando.CommandType = System.Data.CommandType.Text;
-                        comando.Parameters.Add("@Codigo", MySqlDbType.VarChar, 20).Value = Codigo;
+                        comando.Parameters.Add("@Correo", MySqlDbType.VarChar, 45).Value = Correo;
                         comando.Parameters.Add("@Clave", MySqlDbType.VarChar, 100).Value = Clave;
 
                         valido = Convert.ToBoolean(await comando.ExecuteScalarAsync());
@@ -93,12 +93,12 @@ namespace Datos
             return inserto;
         }
 
-        public async Task<bool> ActualizarAsync(usuario usuario)
+        public async Task<bool> ActualizarAsync(Usuario usuario)
         {
             bool actualizo = false;
             try
             {
-                string sql = "UPDATE usuario SET Nombre=@Nombre, Clave=@Clave, Correo=@Correo, Rol=@Rol, EstaActivo=@EstaActivo WHERE Codigo=@Codigo;";
+                string sql = "UPDATE Usuario SET Nombre=@Nombre, Clave=@Clave, Correo=@Correo, Rol=@Rol, EstaActivo=@EstaActivo WHERE Codigo=@Codigo;";
                 using (MySqlConnection _conexion = new MySqlConnection(CadenaConexion.Cadena))
                 {
                     await _conexion.OpenAsync();
@@ -107,7 +107,7 @@ namespace Datos
                         comando.CommandType = System.Data.CommandType.Text;
                         comando.Parameters.Add("@Codigo", MySqlDbType.VarChar, 20).Value = usuario.Codigo;
                         comando.Parameters.Add("@Nombre", MySqlDbType.VarChar, 50).Value = usuario.Nombre;
-                        comando.Parameters.Add("@Clave", MySqlDbType.VarChar, 120).Value = usuario.Clave;
+                        comando.Parameters.Add("@Clave", MySqlDbType.VarChar, 100).Value = usuario.Clave;
                         comando.Parameters.Add("@Correo", MySqlDbType.VarChar, 45).Value = usuario.Correo;
                         comando.Parameters.Add("@Rol", MySqlDbType.VarChar, 20).Value = usuario.Rol;
                         comando.Parameters.Add("@EstaActivo", MySqlDbType.Bit).Value = usuario.EstaActivo;
@@ -123,19 +123,19 @@ namespace Datos
             return actualizo;
         }
 
-        public async Task<bool> EliminarAsync(string codigo)
+        public async Task<bool> EliminarAsync(string correo)
         {
             bool elimino = false;
             try
             {
-                string sql = "DELETE FROM usuario WHERE Codigo = @Codigo;";
+                string sql = "DELETE FROM Usuario WHERE Correo = @Correo;";
                 using (MySqlConnection _conexion = new MySqlConnection(CadenaConexion.Cadena))
                 {
                     await _conexion.OpenAsync();
                     using (MySqlCommand comando = new MySqlCommand(sql, _conexion))
                     {
                         comando.CommandType = System.Data.CommandType.Text;
-                        comando.Parameters.Add("@Codigo", MySqlDbType.VarChar, 20).Value = codigo;
+                        comando.Parameters.Add("@Correo", MySqlDbType.VarChar, 45).Value = correo;
                         await comando.ExecuteNonQueryAsync();
                         elimino = true;
                     }

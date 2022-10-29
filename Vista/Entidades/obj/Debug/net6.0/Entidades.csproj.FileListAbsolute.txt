@@ -1,0 +1,12 @@
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\II UNIDAD\TAREAS\Ejercicio4_IIunidad\Vista\Entidades\bin\Debug\net6.0\Entidades.deps.json
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\II UNIDAD\TAREAS\Ejercicio4_IIunidad\Vista\Entidades\bin\Debug\net6.0\Entidades.dll
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\II UNIDAD\TAREAS\Ejercicio4_IIunidad\Vista\Entidades\bin\Debug\net6.0\Entidades.pdb
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\II UNIDAD\TAREAS\Ejercicio4_IIunidad\Vista\Entidades\obj\Debug\net6.0\Entidades.csproj.AssemblyReference.cache
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\II UNIDAD\TAREAS\Ejercicio4_IIunidad\Vista\Entidades\obj\Debug\net6.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\II UNIDAD\TAREAS\Ejercicio4_IIunidad\Vista\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfoInputs.cache
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\II UNIDAD\TAREAS\Ejercicio4_IIunidad\Vista\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfo.cs
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\II UNIDAD\TAREAS\Ejercicio4_IIunidad\Vista\Entidades\obj\Debug\net6.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\II UNIDAD\TAREAS\Ejercicio4_IIunidad\Vista\Entidades\obj\Debug\net6.0\Entidades.dll
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\II UNIDAD\TAREAS\Ejercicio4_IIunidad\Vista\Entidades\obj\Debug\net6.0\refint\Entidades.dll
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\II UNIDAD\TAREAS\Ejercicio4_IIunidad\Vista\Entidades\obj\Debug\net6.0\Entidades.pdb
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\II UNIDAD\TAREAS\Ejercicio4_IIunidad\Vista\Entidades\obj\Debug\net6.0\ref\Entidades.dll
