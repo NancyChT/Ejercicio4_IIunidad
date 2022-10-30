@@ -28,3 +28,5 @@ C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\II UNIDAD\TAREAS\Ejercicio4_IIun
 C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\II UNIDAD\TAREAS\Ejercicio4_IIunidad\Vista\Vista\obj\Debug\net6.0-windows\Vista.pdb
 C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\II UNIDAD\TAREAS\Ejercicio4_IIunidad\Vista\Vista\obj\Debug\net6.0-windows\Vista.genruntimeconfig.cache
 C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\II UNIDAD\TAREAS\Ejercicio4_IIunidad\Vista\Vista\obj\Debug\net6.0-windows\ref\Vista.dll
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\II UNIDAD\TAREAS\Ejercicio4_IIunidad\Vista\Vista\obj\Debug\net6.0-windows\Vista.Menu.resources
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\II UNIDAD\TAREAS\Ejercicio4_IIunidad\Vista\Vista\obj\Debug\net6.0-windows\Vista.UsuariosForm.resources

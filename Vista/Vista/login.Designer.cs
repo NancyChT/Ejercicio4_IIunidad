@@ -70,6 +70,7 @@
             // 
             this.ContrasenatextBox.Location = new System.Drawing.Point(141, 72);
             this.ContrasenatextBox.Name = "ContrasenatextBox";
+            this.ContrasenatextBox.PasswordChar = '*';
             this.ContrasenatextBox.Size = new System.Drawing.Size(185, 23);
             this.ContrasenatextBox.TabIndex = 3;
             // 
@@ -97,6 +98,7 @@
             this.Cancelarbutton.Text = "Cancelar";
             this.Cancelarbutton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Cancelarbutton.UseVisualStyleBackColor = true;
+            this.Cancelarbutton.Click += new System.EventHandler(this.Cancelarbutton_Click);
             // 
             // IniciopictureBox
             // 
@@ -114,8 +116,10 @@
             // 
             // login
             // 
+            this.AcceptButton = this.Aceptarbutton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.Cancelarbutton;
             this.ClientSize = new System.Drawing.Size(606, 234);
             this.Controls.Add(this.IniciopictureBox);
             this.Controls.Add(this.Cancelarbutton);

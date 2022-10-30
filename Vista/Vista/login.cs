@@ -35,15 +35,20 @@ namespace Vista
 
             if (valido)
             {
-                /* Menu Formulario = new Menu();
+                Menu Formulario = new Menu();
                 Hide();
-                Formulario.Show(); */
+                Formulario.Show();
 
             }
             else
             {
                 MessageBox.Show("Datos de usuario incorrectos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void Cancelarbutton_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
